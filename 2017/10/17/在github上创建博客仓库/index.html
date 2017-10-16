@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="1. 创建repository1创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用 如图 2. 配置github账号信息设置user.name和user.email12345git config --global user.name &amp;quot;你的GitHub用户名&amp;quot;：F:\blog&amp;gt;git conf">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2017/10/17/在github上创建博客仓库/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1. 创建repository1创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用 如图 2. 配置github账号信息设置user.name和user.email12345git config --global user.name &amp;quot;你的GitHub用户名&amp;quot;：F:\blog&amp;gt;git conf">
+<meta property="og:updated_time" content="2017-10-16T16:11:38.855Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="1. 创建repository1创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用 如图 2. 配置github账号信息设置user.name和user.email12345git config --global user.name &amp;quot;你的GitHub用户名&amp;quot;：F:\blog&amp;gt;git conf">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-在github上创建博客仓库" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/10/17/在github上创建博客仓库/" class="article-date">
+  <time datetime="2017-10-16T16:16:40.839Z" itemprop="datePublished">2017-10-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1-创建repository"><a href="#1-创建repository" class="headerlink" title="1. 创建repository"></a>1. 创建repository</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用</div></pre></td></tr></table></figure>
+<p>如图</p>
+<h1 id="2-配置github账号信息"><a href="#2-配置github账号信息" class="headerlink" title="2. 配置github账号信息"></a>2. 配置github账号信息</h1><h2 id="设置user-name和user-email"><a href="#设置user-name和user-email" class="headerlink" title="设置user.name和user.email"></a>设置user.name和user.email</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;你的GitHub用户名&quot;：</div><div class="line">F:\blog&gt;git config --global user.name &quot;dengsiwen&quot;</div><div class="line"></div><div class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</div><div class="line">F:\blog&gt;git config --global user.email &quot;491408802@qq.com&quot;</div></pre></td></tr></table></figure>
+<h2 id="生成ssh密匙"><a href="#生成ssh密匙" class="headerlink" title="生成ssh密匙"></a>生成ssh密匙</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">需要在gitbash中执行如下命令：</div><div class="line"></div><div class="line">ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</div><div class="line">ssh-keygen -t rsa -C &quot;491408802@qq.com&quot;</div><div class="line"></div><div class="line">成功后会在C:\Users\Administrator\.ssh中生成两个ssh密钥文件id_rsa和id_rsa.pub</div></pre></td></tr></table></figure>
+<h2 id="将密钥文件配置到github中"><a href="#将密钥文件配置到github中" class="headerlink" title="将密钥文件配置到github中"></a>将密钥文件配置到github中</h2><p>如图</p>
+<p>添加一个 New SSH key ，title随便取，key就填id_rsa.pub文件的内容。</p>
+<p>在gitbash中验证是否添加成功：ssh -T git@github.com</p>
+<h2 id="config文件中配置github"><a href="#config文件中配置github" class="headerlink" title="config文件中配置github"></a>config文件中配置github</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  #repository: ssh://git@github.com:dengsiwen/dengsiwen.github.io.git</div><div class="line">  repo: git@github.com:dengsiwen/dengsiwen.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<h2 id="上传到github"><a href="#上传到github" class="headerlink" title="上传到github"></a>上传到github</h2><ol>
+<li>先安装：npm install hexo-deployer-git –save</li>
+</ol>
+<p>这样才能将你写好的文章部署到github服务器上并让别人浏览到</p>
+<ol>
+<li>先CD到项目文件夹下，执行命令(建议每次都按照如下步骤部署)：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ cd f:/blog</div><div class="line">hexo clean</div><div class="line">hexo generate</div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+<p>访问：<a href="https://dengsiwen.github.io/" target="_blank" rel="external">https://dengsiwen.github.io/</a></p>
+<h2 id="需要重点注意的几个问题"><a href="#需要重点注意的几个问题" class="headerlink" title="需要重点注意的几个问题"></a>需要重点注意的几个问题</h2><ol>
+<li>不要用cmd执行命令，用gitbash</li>
+<li>repo:用git开头的ssh方式</li>
+<li>create repo的时候，命名为：yourname.github.io（只能建一次？）</li>
+<li>创建ssh的时候，命名为：yourname.github.io（可以不用）</li>
+</ol>
+<p>如果实在不能deploy，可以使用最原始的git提交方式<br>git init<br>echo “# elasticsearch-jest” &gt;&gt; README.md<br>git add README.md<br>git commit -m “first commit”<br>git add <em><br>git commit -m </em><br>git remote add origin <a href="https://git.coding.net/dengsiwen/elasticsearch-jest.git" target="_blank" rel="external">https://git.coding.net/dengsiwen/elasticsearch-jest.git</a></p>
+<p>git提交失败原因分析<br>一定要先pull，再push</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/10/17/在github上创建博客仓库/" data-id="cj8uduy7000018wue1u9h5nqw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/10/15/hexo搭建/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/10/17/在github上创建博客仓库/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/10/15/hexo搭建/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/10/15/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
